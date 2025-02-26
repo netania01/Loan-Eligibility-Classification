@@ -50,9 +50,13 @@ Load and preprocess the dataset.
 
 ## Instalation
 To run this project, install the required dependencies:
+
 `pip install pandas numpy matplotlib scikit-learn`
 
 ## Usage
+Run the notebook to process the dataset and train the model:
+
 `jupyter notebook Classification.ipynb`
 
-    
+## License
+This project is open-source and available for further modifications and improvements.
