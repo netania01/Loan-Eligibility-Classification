@@ -25,19 +25,20 @@ This project aims to predict loan eligibility based on various attributes of a l
 
 ## Step
 
-1. **Data Preprocessing**:
-   - Handle missing values
-   - Convert categorical variables into numerical format using encoding techniques
-   - Normalize or standardize the numerical features, if necessary
+1. **Import Libraries**:
+Essential libraries such as pandas, numpy, matplotlib, and machine learning frameworks.
 
-2. **Model Training**:
-   - Split the dataset into training and testing sets
-   - Train the Logistic Regression model
-   - Train the Decision Tree model
+2. **Import Dataset**:
+Load and preprocess the dataset.
 
-3. **Model Evaluation**:
-   - Evaluate both models onfusion matrix and ROC curve
+3. **Data Overview**:
+- Understand the dataset, check for missing values, and explore feature distributions.
+- Exploratory Data Analysis (EDA)
+- Perform visualizations and statistical analysis to gain insights into the data.
 
+4. **Machine Learning Model Development & Evaluation**:
+- Train and classification models to predict loan eligibility with Regression model and Decision Tree.
+- Evaluate both models onfusion matrix and ROC curve
 
 
 ## Requirements
@@ -46,5 +47,12 @@ This project aims to predict loan eligibility based on various attributes of a l
 - scikit-learn
 - matplotlib
 - seaborn
+
+## Instalation
+To run this project, install the required dependencies:
+`pip install pandas numpy matplotlib scikit-learn`
+
+## Usage
+`jupyter notebook Classification.ipynb`
 
     
